@@ -13,7 +13,10 @@ public class Hero {
         System.out.println(this.name+"は眠ってHPが回復した");
     };
     public void sit(int sec){
-
+        this.hp+=sec;
+        System.out.println(this.name+"は"+sec+"秒座った");
+        System.out.println("HPが"+sec+"ポイント回復した");
+        System.out.println("現在のHPは"+this.hp);
     };
     public void slip(){
         
