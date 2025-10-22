@@ -11,4 +11,8 @@ public class Mian {
         matango.hp=50;
         System.out.println("マタンゴのHPは"+matango.hp);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6a07b3f5ac2dbd4e1cbaca94d6cb630390bef4c3
